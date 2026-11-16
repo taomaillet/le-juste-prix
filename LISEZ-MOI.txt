@@ -1,0 +1,35 @@
+LE JUSTE PRIX - EDITION MULTIJOUEUR (VERSION 2)
+
+Jeu amateur librement inspire de la version recente de l'emission.
+Ce jeu n'est pas affilie a M6 ou Fremantle et utilise des graphismes originaux.
+
+INSTALLATION
+1. Installer Node.js (18 ou plus recent).
+2. Ouvrir un terminal dans le dossier contenant server.js.
+3. Executer : npm install
+4. Executer : npm start
+5. Ouvrir : http://localhost:3000
+
+RENDER
+Runtime : Node
+Build Command : npm install
+Start Command : npm start
+Instance : Free si disponible
+Les fichiers server.js, package.json et le dossier public doivent etre a la racine du depot GitHub.
+
+REGLES INTEGREES
+- Sept candidats (jusqu'a 7 humains, bots pour les places libres)
+- Quatre estimations qualificatives ; la meilleure estimation sans depasser gagne.
+- Nouvelle estimation si tous depassent le prix.
+- Mini-jeux varies de prix ; cadeaux fictifs.
+- Quatre qualifies a la roue, valeurs de 5 a 100, maximum deux tours, depassement de 100 eliminatoire.
+- Egalites departagees par relance.
+- Vitrine finale : prix exact a trouver en 25 secondes, indications plus/moins.
+- Salons prives, connexion Socket.IO et synchronisation des joueurs.
+
+LIMITES
+- Les prix sont des prix de jeu fictifs, non des offres commerciales reelles.
+- Les mini-jeux sont des adaptations jouables ; ce n'est pas l'integralite des jeux TV.
+- Le detail des regles de la version televisee peut changer selon la saison.
+- Les salles et parties sont en memoire et disparaissent au redemarrage du serveur.
+- Un code de salon ne constitue pas une authentification.
